@@ -2,9 +2,10 @@ from telethon.sync import TelegramClient
 import pandas as pd
 import time
 import random
+import secret
 
-API_ID = 20138314
-API_HASH = '29ccf1c152698f24be15493b75fae14c'
+API_ID = secret.API_ID
+API_HASH = secret.API_HASH
 
 
 def send_message(handle, message):
